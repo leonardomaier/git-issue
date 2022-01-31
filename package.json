@@ -1,0 +1,25 @@
+{
+  "name": "git-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "issues.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardomaier/git-issue.git"
+  },
+  "keywords": [
+    "javascript",
+    "git",
+    "nodejs",
+    "github-api"
+  ],
+  "author": "leonardomaier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardomaier/git-issue/issues"
+  },
+  "homepage": "https://github.com/leonardomaier/git-issue#readme"
+}
