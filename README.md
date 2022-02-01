@@ -4,9 +4,13 @@ Create issues on your GitHub repository using Node.js
 
 ## Usage
 
-First of all, you need to create a personal token following this [link](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+First of all, we need to create a personal token following this [link](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
-Once you're done, you can start using it:
+Once we're done, we need to copy <code>.env.example</code> and paste as <code>.env</code>.
+
+On the <code>GITHUB_PERSONAL_TOKEN</code> env variable we paste our personal GitHub token.
+
+After all that you can starting using it:
 
 ```js
 const Issue = require('./issue');
